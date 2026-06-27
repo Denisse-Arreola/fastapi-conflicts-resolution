@@ -4,10 +4,10 @@ from fastapi import FastAPI
 app = FastAPI(
     title="API System",
     description="API service to print Hello World",
-    version="1.0.0"
+    version="1.3.2"
 )
 
 # Root endpoint
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "Welcome :)"}
