@@ -10,4 +10,4 @@ app = FastAPI(
 # Root endpoint
 @app.get("/")
 def read_root():
-    return {"Hello": "Denisse"}
+    return {"Hello": "Welcome"}
